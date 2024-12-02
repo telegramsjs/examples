@@ -12,7 +12,6 @@ client.on("ready", async ({ user }) => {
   const remainingTime = setNameCooldown + 86_400_000 - Date.now();
 
   if (remainingTime < 0) {
-    console.log("Set");
     await user?.setName("Тг кружки, кружки из видео", "ru");
     await user?.setName("Телеграм-кружки, кружки з відео", "uk");
     await user?.setName("Telegram circles, circles from video", "en");
@@ -23,7 +22,7 @@ client.on("ready", async ({ user }) => {
   await loader.loadEvents(path.join(process.cwd(), "/dist/events"));
   await loader.loadCallbacks(path.join(process.cwd(), "/dist/callback"));
   await loader.loadCommands(path.join(process.cwd(), "/dist/commands"));
-  console.log(`Ready is @${user}`);
+  console.log(`Ready! Logged in as @${user}`);
 });
 
 process.on("uncaughtException", (err, origin) => {

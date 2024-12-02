@@ -33,9 +33,7 @@ const data = new CallbackManager()
 
     await ctx.showAlert(
       i18n
-        .get("settingsUpdated", ctx.author.language, {
-          quality: newQuality,
-        })
+        .get("settingsUpdated", ctx.author.language)
         .replace(/\{quality\}/, () =>
           i18n.get(newQuality, ctx.author.language),
         ),
