@@ -1,0 +1,10 @@
+[
+  {
+    "command": "/start",
+    "description": "Стартова команда"
+  },
+  {
+    "command": "/settings",
+    "description": "Змінити якість кружків"
+  }
+]

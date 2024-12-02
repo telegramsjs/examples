@@ -1,0 +1,10 @@
+[
+  {
+    "command": "/start",
+    "description": "Start command"
+  },
+  {
+    "command": "/settings",
+    "description": "Change circle quality"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "startCommand": "<b>Hello! 👋 I am a bot for creating video circles from your videos.</b>\nHere’s what I can do:\n- Convert any video into a stylish video circle for Telegram.\n- Adjust the conversion quality (<i>low, medium, high</i>).\n\n<b>How to use:</b>\n1. Send me a video.\n2. I’ll quickly turn it into a video circle and send it back to you.\n\n<b>Commands:</b>\n- /settings — quality settings:\n  - <code>low</code> — low quality (faster, takes up less space).\n  - <code>medium</code> — medium quality (recommended).\n  - <code>high</code> — high quality (maximum detail).\n\n<b>Notes:</b>\n- I work with videos up to 1 minute long (20MB).\n- If you have questions or encounter issues, use the <code>/help</code> command.\n\n<i>Send your video, and I’ll make a cool circle for you! 🎥</i>",
+  "sendCmdCooldown": "I’m not a machine, give me a moment before running the command again 🤧",
+  "onlyOneTime": "Please wait, the previous video is being processed first.",
+  "memoryUsage": "The bot is overloaded. Please wait or try again later!",
+  "videoNoteConvert": "Due to the lack of an explosion at the end, I can only offer an improvement in image quality on the mug.",
+  "maxDuractionVideo": "The video duration should not exceed one minute.",
+  "bigVideo": "The video is too large! Send something under 20MB.",
+  "errUploadVideo": "An error occurred while processing the video.",
+  "blastKeyboard": "Should we add a cool explosion?",
+  "settingsCommand": "Your current settings:\n\n<b>Video quality:</b> ${quality}\n\nTo change the quality, select one of the buttons below:",
+  "settingsUpdated": "Settings updated! New video quality: {quality}",
+  "settingsAlreadyApplied": "The settings you want to apply are already in place!",
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High"
+}
