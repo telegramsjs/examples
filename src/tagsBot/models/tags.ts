@@ -1,9 +1,10 @@
 import { Sequelize, DataTypes, Model } from "sequelize";
 
 const sequelize = new Sequelize({
+  dialect: "sqlite",
   host: "localhost",
-  dialect: "postgres",
   logging: true,
+  storage: "database.sqlite",
 });
 
 class Tag extends Model {

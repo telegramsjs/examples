@@ -48,8 +48,6 @@ client.on(Events.Message, async (msg) => {
     const [name, ...descriptionParts] = msg.content.split(" ").slice(1);
     const description = descriptionParts.join(" ");
 
-    console.log(name, descriptionParts, msg.content.split(" "));
-
     if (!name || !description) {
       await msg.reply("Usage: /addtag <name> <description>");
       return;
