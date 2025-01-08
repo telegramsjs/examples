@@ -5,3 +5,4 @@
 ## Currently Available Projects:
 
 - **[VideoNoteBot](./src/videoNote/README.md)** - A bot designed to convert videos into circular clips or add explosion effects to circular clips.
+- **[TagsBot](./src/tagsBot/README.md)** - A simple bot for creating notes by keyword.

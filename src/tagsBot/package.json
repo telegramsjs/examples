@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "sequelize": "^6.37.5",
+    "telegramsjs": "^4.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@telegram.ts/types": "^1.20.0",
+    "@types/node": "^22.10.5",
+    "@types/sequelize": "^4.28.20",
+    "@types/node-fetch": "^2.6.12"
+  }
+}
